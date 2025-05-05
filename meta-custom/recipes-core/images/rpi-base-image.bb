@@ -140,6 +140,7 @@ IMAGE_INSTALL_remove = " \
 # Raspberry Pi configuration
 ENABLE_UART = "1"
 
+IMAGE_INSTALL_remove = " packagegroup-core-sdk dev-pkgs dbg-pkgs "
 
 # Image Output Format
 
