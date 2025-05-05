@@ -130,9 +130,9 @@ IMAGE_INSTALL_remove = " \
 
 
 # Image size
-#IMAGE_OVERHEAD_FACTOR = "1.3"
-#IMAGE_ROOTFS_SIZE ?= "16384"
-#IMAGE_ROOTFS_EXTRA_SPACE = "9097152"
+IMAGE_OVERHEAD_FACTOR = "1.3"
+IMAGE_ROOTFS_SIZE ?= "16384"
+IMAGE_ROOTFS_EXTRA_SPACE = "9097152"
 
 
 # ====================================================================================
