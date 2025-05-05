@@ -176,6 +176,9 @@ cat >> conf/local.conf << EOF
 # Machine Selection
 MACHINE = "${MACHINE}"
 
+INHERIT += "rm_work"
+IMAGE_FEATURES += "strip-debug"
+
 # Enable systemd
 INIT_MANAGER = "systemd"
 
