@@ -62,6 +62,7 @@ IMAGE_INSTALL = " \
     docker-ce \
     git \
     opkg \
+    nano \
 "
 
 
