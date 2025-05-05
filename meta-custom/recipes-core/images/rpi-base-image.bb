@@ -3,6 +3,7 @@ require recipes-core/images/rpi-basic-image.bb
 
 SUMMARY = "RPI Base Image + my extras"
 LICENSE = "MIT"
+inherit core-image
 
 # Now append any extra packages you want:
 IMAGE_INSTALL_append = " your-extra-package another-tool"
